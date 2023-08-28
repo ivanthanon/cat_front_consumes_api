@@ -1,0 +1,25 @@
+{
+  "name": "prueba_tecnica_cat_fetch",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "eslint": "^8.48.0",
+    "eslint-plugin-react": "^7.33.2",
+    "standard": "^17.1.0",
+    "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "4.0.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  }
+}
